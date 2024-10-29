@@ -108,4 +108,8 @@ body {
     background: linear-gradient(90deg, #C00000, #C76D00, #B3B300, #009900, #0000CC, #4B0082, #6A0DAD);
     background-clip: text;
     color: transparent;
-  }
+}
+
+#searchForm {
+    margin-right: 10px;
+}
