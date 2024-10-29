@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Articles - Minecraft fun page</title>
+    <link rel="icon" type="images/webp" href="images/minecraft_logo_icon_168974.webp">
+    <link rel="stylesheet" href="Link&ArticleStyle.css">
+    <link rel="stylesheet" href="footer.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <audio id="notificationSound" src="audio/hurt.wav"></audio>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <img src="images/minecraft_logo_icon_168974.webp" alt="Minecraft_logo" width="30" style="margin-left:10px;">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navMenu">
+                    <li class="nav-item"><a class="nav-link" style="font-size:20px; padding-top:3px ;"
+                            href="MainPage.html">Main page</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Memes.html">Memes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Links.html">Links</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Articles.html">Articles</a></li>
+                    <button id="themeChangeBtn"
+                        style="margin-left:50px; margin-right:15px; background-color:rgb(255, 237, 224);color:rgb(40, 40, 40);border-radius:7px ;">Light
+                        theme</button>
+                    <button id="play-sound-btn" class="btn btn-info">Play Sound</button>
+                </ul>
+                <span id="userEmailDisplay" style=" margin-right:20px ; color: white;"></span>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit" style="margin-right:10px;">Search</button>
+                </form>
+                <a id="signInButton" href="Signin.html" class="btn btn-primary" role="button"
+                    style="margin-right: 10px;">Sign in</a>
+                <a id="logInButton" href="Login.html" class="btn btn-secondary" role="button">Log in</a>
+                <a id="logoutButton" href="#" class="btn btn-secondary" role="button" style="display: none;">Log out</a>
+            </div>
+        </div>
+    </nav>
+    <div class="content-wrapper">
+        <h1 class="header-section">Interesting articles here!</h1>
+        <hr>
+
+        <h2><a style="text-decoration: none;" href="https://en.wikipedia.org/wiki/Markus_Persson">1) The
+                great creator "Notch"</a></h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-6" style="margin-right: 50px;">
+                    <p style="font-family: 'CustomFont';">
+                        Markus Alexej Persson
+                        born 1 June 1979), also known as "Notch",[3] is a Swedish video game programmer
+                        and designer. He is the creator of the video game Minecraft, which since its
+                        release has become the best-selling video game in history. He founded the video
+                        game development company Mojang Studios in 2009.</p>
+                    <br>
+                    <p style="font-family: 'CustomFont';">Persson began developing video games at an early age, making
+                        games both
+                        professionally and for pleasure for much of his life. His commercial success
+                        began after publishing an early version of Minecraft in 2009. Prior to the
+                        game's official retail release in 2011, it had sold over ten million copies.
+                        After this point, Persson stood down as the lead designer and transferred
+                        creative authority to Jens Bergensten. In September 2014, Persson announced
+                        on his personal website that he had concluded he "[didn't have the connection
+                        to his fans he thought he had]", that he had "become a symbol", and that he
+                        did not wish to be responsible for Mojang's increasingly large operation.
+                        Persson left Mojang in November of that year, selling his company to Microsoft
+                        for a reported US$2.5 billion.[The acquisition made Persson a billionaire.</p>
+
+                </div>
+                <div class="col">
+                    <img class="featured-image" src="images/Notch.webp" alt="Markus Alexej Persson"
+                        style="width: 400px; border-radius: 10px;">
+                </div>
+            </div>
+        </div>
+        <h2><a href="https://en.wikipedia.org/wiki/Minecraft">2) Minecraft
+                Wiki</a></h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-6" style="margin-right: 50px;">
+                    <p style="font-family: 'CustomFont';">Minecraft is a 2011 sandbox game developed and published by
+                        Mojang Studios.
+                        Originally created by Markus "Notch" Persson using the Java programming language,
+                        the first public test build was released on 17 May 2009. The game would continue
+                        to be developed over the span of two years, until its full release on 18 November
+                        2011. Afterwards, Persson left Mojang and gave Jens "Jeb" Bergensten control over
+                        the game's development. In the years since its release, it has been ported to
+                        several platforms, including smartphones, tablets, and various video game consoles,
+                        primarily by 4J Studios. In 2014, Mojang and the Minecraft intellectual property
+                        were purchased by Microsoft for US$2.5 billion. Minecraft has become the
+                        best-selling video game of all-time, with over 300 million copies sold and nearly
+                        140 million monthly active players as of 2023.</p>
+                    <br>
+                    <p style="font-family: 'CustomFont';">In Minecraft, players explore a procedurally generated,
+                        three-dimensional world
+                        with virtually infinite terrain made up of voxels. Players can discover and
+                        extract raw materials, craft tools and items, and build structures, earthworks,
+                        and machines. Depending on their chosen game mode, players can fight hostile mobs,
+                        as well as cooperate with or compete against other players. The game has two main
+                        modes; one being survival mode, where players must acquire resources to survive,
+                        and a creative mode where players have unlimited resources and the ability to fly.
+                        Several other game modes exist besides the two main ones, such as one that allows
+                        players to spectate others and one that plays identically to survival mode, but
+                        features permadeath. The game's large community also offers a wide variety of
+                        user-generated content, such as modifications, servers, skins, texture packs, and
+                        custom maps, which add new game mechanics and possibilities.</p>
+                </div>
+                <div class="col">
+                    <img class="featured-image" src="images/Minecraft_Cover_Art.webp" alt="Minecraft Cover Art"
+                        style="width: 400px;  border-radius: 10px;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h2>Minecraft FAQs <button class="btn btn-primary" id="colorChangeBtn"
+                style="text-align:right;margin-left:50px;margin-bottom:10px;">Click Me!</button></h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <h5 class="faq-question">What is a crafting table?</h5>
+                <div class="faq-answer">
+                    <p>A crafting table is a block that allows players to craft a wider variety of items than the
+                        standard 2x2 crafting grid.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <h5 class="faq-question">How do I find diamonds?</h5>
+                <div class="faq-answer">
+                    <p>Diamonds are usually found deep underground, typically between levels 1 and 15. Use an iron
+                        pickaxe to mine them.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <h5 class="faq-question">What is the Nether?</h5>
+                <div class="faq-answer">
+                    <p>The Nether is a dangerous dimension filled with unique mobs and resources, accessed through a
+                        Nether portal.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-info">
+            <p>Created by Bekesh Madi and Nurassyl Duisembay</p>
+            <p>Follow us on social media:</p>
+            <ul>
+                <li><a href="https://t.me/+4SfIkCnC-G05Zjgy" target="_blank">Telegram</a></li>
+                <li><a href="https://www.youtube.com/@mycorner2039" target="_blank">Youtube</a></li>
+                <li><a href="https://www.instagram.com/nura_oyboy/profilecard/?igsh=MWZ1aHE0YmNobzU3Zg=="
+                        target="_blank">Instagram</a></li>
+            </ul>
+            <p id="dateTime"></p>
+        </div>
+
+        <button id="open-popup-btn">Contact Us</button>
+
+        <div class="overlay" id="overlay"></div>
+        <div class="popup" id="popup">
+            <span class="close-btn" id="close-popup-btn">&times;</span>
+            <h2>Contact us</h2>
+            <form id="subscribe-form">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </footer>
+    <script src="logout.js"></script>
+
+    <script src="keybord.js"></script>
+    <script src="theme.js"></script>
+    <script src="color_change_button.js"></script>
+    <script src="faq.js"></script>
+    <script src="time_display.js"></script>
+    <script src="pop_up.js"></script>
+    <script src="greeting_time.js"></script>
+    <script src="sound.js"></script>
+    <script src="name.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initialscale=1.0">
+    <title>Minecraft fun page</title>
+    <link rel="icon" type="images/webp" href="images/minecraft_logo_icon_168974.webp">
+    <link rel="stylesheet" href="Link&ArticleStyle.css">
+    <link rel="stylesheet" href="footer.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class=".custom-body ">
+    <audio id="notificationSound" src="audio/hurt.wav"></audio>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <img src="images/minecraft_logo_icon_168974.webp" alt="Minecraft_logo" width="30" style="margin-left:10px;">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navMenu">
+                    <li class="nav-item"><a class="nav-link" style="font-size:20px; padding-top:3px ;"
+                            href="MainPage.html">Main page</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Memes.html">Memes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Links.html">Links</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Articles.html">Articles</a></li>
+                    <button id="themeChangeBtn"
+                        style="margin-left:50px; margin-right:15px; background-color:rgb(255, 237, 224);color:rgb(40, 40, 40);border-radius:7px ;">Light
+                        theme</button>
+                    <button id="play-sound-btn" class="btn btn-info">Play Sound</button>
+                </ul>
+                <span id="userEmailDisplay" style=" margin-right:20px ; color: white;"></span>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit" style="margin-right:10px;">Search</button>
+                </form>
+                <a id="signInButton" href="Signin.html" class="btn btn-primary" role="button"
+                    style="margin-right: 10px;">Sign in</a>
+                <a id="logInButton" href="Login.html" class="btn btn-secondary" role="button">Log in</a>
+                <a id="logoutButton" href="#" class="btn btn-secondary" role="button" style="display: none;">Log out</a>
+            </div>
+        </div>
+    </nav>
+    <div class="content-wrapper">
+
+        <h1 class="header-section">Welcome to Minecraft fun page!</h1>
+        <hr>
+        <p id="greetingDisplay" style="font-size: 24px; font-family: 'CustomFont';"></p>
+        <input type="text" id="nameInput" placeholder="Enter your name" style="font-size: 24px; margin-bottom: 10px;">
+        <button id="greetBtn" class="btn btn-primary" style="margin-bottom:9px; margin-left:10px">Submit</button>
+        <p id="dynamicGreeting" style="font-size: 24px; font-family: 'CustomFont';"></p>
+        <hr>
+        <p style="font-size: 24px; font-family: 'CustomFont';">🎮 Welcome to the Ultimate Minecraft Fun Zone! 🌍
+
+            Hey there, block-builders and pixel-pioneers! <br>
+            Are you ready to dive into the most epic Minecraft adventures? <br>
+            Whether you're a seasoned pro or just starting out, this is the place where your creativity and curiosity
+            can run wild. 🏰💎<br>
+            ✨ What's Happening Here? <br> <br>
+
+            1. Epic Mods: Check out the most jaw-dropping creations from the community! From sprawling castles to
+            futuristic cities, see how your fellow crafters are pushing the limits of imagination. Got something amazing
+            you’ve built? Share it with us! <br>
+            2. Fun Challenges: Think you’ve got what it takes? Participate in our monthly challenges and contests. Build
+            a theme park, survive in the most hostile biome, or create a replica of a famous landmark. Prizes and
+            bragging rights are up for grabs! <br>
+            3. Tips & Tricks: Whether you're looking to master redstone contraptions or find the best strategies for
+            surviving the Nether, our expert tips will help you level up your gameplay. Got a trick of your own? We want
+            to hear it! <br>
+            4. Community Spotlight: Meet fellow Minecraft enthusiasts! From builders to adventurers, we highlight
+            amazing players and their stories. Discover new friends and allies for your next great adventure. <br>
+            5. Minecraft Memes & Fun: Need a break from building? Enjoy our collection of Minecraft memes, jokes, and
+            funny moments. Laughter is the best pickaxe, after all!</p>
+        <img src="images/scenery.webp" alt="scenery" width="950">
+    </div>
+    <footer>
+        <h2>Minecraft FAQs <button class="btn btn-primary" id="colorChangeBtn"
+                style="text-align:right;margin-left:50px;margin-bottom:10px;">Click Me!</button></h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <h5 class="faq-question">How can I create a shelter?</h5>
+                <div class="faq-answer">
+                    <p>To create a shelter, gather blocks like wood or stone and place them to form walls and a roof.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <h5 class="faq-question">What are Minecraft mobs?</h5>
+                <div class="faq-answer">
+                    <p>Mobs are living creatures in Minecraft, including animals like cows and pigs, as well as hostile
+                        creatures like zombies and skeletons.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <h5 class="faq-question">How do I enchant items?</h5>
+                <div class="faq-answer">
+                    <p>You can enchant items by using an enchantment table, which requires experience points and lapis
+                        lazuli.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-info">
+            <p>Created by Bekesh Madi and Nurassyl Duisembay</p>
+            <p>Follow us on social media:</p>
+            <ul>
+                <li><a href="https://t.me/+4SfIkCnC-G05Zjgy" target="_blank">Telegram</a></li>
+                <li><a href="https://www.youtube.com/@mycorner2039" target="_blank">Youtube</a></li>
+                <li><a href="https://www.instagram.com/nura_oyboy/profilecard/?igsh=MWZ1aHE0YmNobzU3Zg=="
+                        target="_blank">Instagram</a></li>
+            </ul>
+            <p id="dateTime"></p>
+        </div>
+
+        <button id="open-popup-btn">Contact Us</button>
+
+        <div class="overlay" id="overlay"></div>
+        <div class="popup" id="popup">
+            <span class="close-btn" id="close-popup-btn">&times;</span>
+            <h2>Contact us</h2>
+            <form id="subscribe-form">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </footer>
+    <script src="logout.js"></script>
+
+    <script src="keybord.js"></script>
+    <script src="theme.js"></script>
+    <script src="time_display.js"></script>
+    <script src="color_change_button.js"></script>
+    <script src="faq.js"></script>
+    <script src="pop_up.js"></script>
+    <script src="greeting_time.js"></script>
+    <script src="sound.js"></script>
+    <script src="name.js"></script>
+</body>
+
+</html>

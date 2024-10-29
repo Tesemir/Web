@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sign in - Minecraft fun page</title>
+    <link rel="icon" type="images/webp" href="images/minecraft_logo_icon_168974.webp">
+    <link rel="stylesheet" href="Link&ArticleStyle.css">
+    <link rel="stylesheet" href="footer.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body style="   background-image: url(images/body\ bg.png);">
+
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <img src="images/minecraft_logo_icon_168974.webp" alt="Minecraft_logo" width="30" style="margin-left:10px;">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navMenu">
+                    <li class="nav-item"><a class="nav-link" style="font-size:20px; padding-top:3px ;"
+                            href="MainPage.html">Main page</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Memes.html">Memes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Links.html">Links</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Articles.html">Articles</a></li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit" style="margin-right:10px;">Search</button>
+                </form>
+                <a id="signInButton" href="Signin.html" class="btn btn-primary" role="button"
+                    style="margin-right: 10px;">Sign in</a>
+                <a id="logInButton" href="Login.html" class="btn btn-secondary" role="button">Log in</a>
+                <a id="logoutButton" href="#" class="btn btn-secondary" role="button" style="display: none;">Log out</a>
+            </div>
+        </div>
+    </nav>
+    <div class="content-wrapper-login">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4" style="width:70%;">
+                    <h2 class="text-center">Sign In</h2>
+                    <form id="signInForm">
+                        <div class="form-group">
+                            <label for="signInEmail">Email address</label>
+                            <input class="form-control" id="signInEmail" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="signInPassword">Password</label>
+                            <input type="password" class="form-control" id="signInPassword" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block mt-3">Sign In</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <p id="alarmMessage" style="margin-left:85px;padding-top:23px; color:rgb(237,73,86)"> </p>
+    </div>
+
+    <footer>
+        <h2>Minecraft FAQs</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <h5 class="faq-question">How do I build a portal to the Nether?</h5>
+                <div class="faq-answer">
+                    <p>To build a Nether portal, arrange obsidian blocks in a rectangular frame (minimum 4 blocks high
+                        and 5 blocks wide) and light the inside with flint and steel.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <h5 class="faq-question">What is the purpose of redstone?</h5>
+                <div class="faq-answer">
+                    <p>Redstone is used to create circuits and mechanisms, enabling players to build complex machines,
+                        traps, and automated systems.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <h5 class="faq-question">How can I heal in the game?</h5>
+                <div class="faq-answer">
+                    <p>You can heal by eating food such as bread, cooked meat, or golden apples, which restore health
+                        points.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-info">
+            <p>Created by Bekesh Madi and Nurassyl Duisembay</p>
+            <p>Follow us on social media:</p>
+            <ul>
+                <li><a href="https://t.me/+4SfIkCnC-G05Zjgy" target="_blank">Telegram</a></li>
+                <li><a href="https://www.youtube.com/@mycorner2039" target="_blank">Youtube</a></li>
+                <li><a href="https://www.instagram.com/nura_oyboy/profilecard/?igsh=MWZ1aHE0YmNobzU3Zg=="
+                        target="_blank">Instagram</a></li>
+            </ul>
+            <p id="dateTime"></p>
+        </div>
+
+        <button id="open-popup-btn">Contact Us</button>
+
+        <div class="overlay" id="overlay"></div>
+        <div class="popup" id="popup">
+            <span class="close-btn" id="close-popup-btn">&times;</span>
+            <h2>Contact us</h2>
+            <form id="subscribe-form">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </footer>
+    <script src="sign.js"></script>
+
+    <script src="keybord.js"></script>
+    <script src="faq.js"></script>
+    <script src="time_display.js"></script>
+    <script src="pop_up.js"></script>
+</body>
+
+</html>

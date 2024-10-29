@@ -1,0 +1,111 @@
+body {
+    background-color: #f4f4f4 !important;
+    padding-top: 20px;
+}
+.nav-link:focus {
+    background-color: #4CAF50 
+}
+.navbar {
+    overflow: hidden;
+    border-radius: 10px;
+    margin-inline:20px;
+}
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('4197-font.ttf');
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    padding-inline: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #4CAF50;
+}
+
+.header-section {
+    background: linear-gradient(0, #4CAF50 0%, #2c3e50 100%);
+    color: white;
+    padding: 40px;
+    text-align: center;
+    font-size: 48px;
+    border-radius: 10px;
+    font-family: 'CustomFont';
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    margin-block:20px;
+    max-width: 1000px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.content-wrapper-dark {
+    margin: 0 auto;
+    margin-block:20px;
+    max-width: 1000px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.content-wrapper-login {
+    margin: 0 auto;
+    max-width: 500px;
+    height:650px;
+    background-color: white;
+    padding-block: 100px;
+    border-radius: 10px;
+    margin-block:20px;
+
+}
+
+.content-wrapper h2 {
+    color: #333;
+    font-size: 28px;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+    font-family: 'CustomFont';
+}
+
+.content-wrapper h2.dark {
+    color: white;
+    font-size: 28px;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+    font-family: 'CustomFont';
+}
+.content-wrapper h2 a {
+    text-decoration: none;
+    color:#333;
+}
+
+.content-wrapper h2.dark a {
+    color: white; 
+    text-decoration: none;
+}
+.content-wrapper p.dark {
+    color: white;
+    
+}
+.content-wrapper hr.dark{
+    color:#f4f4f4
+}
+ h2 {
+    color: #333;
+    font-size: 28px;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+    font-family: 'CustomFont';
+}
+
+#dynamicGreeting {
+    background: linear-gradient(90deg, #C00000, #C76D00, #B3B300, #009900, #0000CC, #4B0082, #6A0DAD);
+    background-clip: text;
+    color: transparent;
+  }
