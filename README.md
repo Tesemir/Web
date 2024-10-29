@@ -1,5 +1,7 @@
 # Minecraft Fun Page
 
+![image](https://github.com/user-attachments/assets/29345170-0c76-465c-b5a0-3af4f9dcc47f)
+
 ## Description
 The Minecraft Fun Page is an interactive website designed for Minecraft enthusiasts. It offers a vibrant platform for users to explore various content related to Minecraft, including articles, memes, and community challenges. Users can sign in, manage their preferences, and enjoy a personalized experience while engaging with fellow players.
 
