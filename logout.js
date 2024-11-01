@@ -1,4 +1,3 @@
-
 window.addEventListener('load', function () {
     const isLoggedIn = localStorage.getItem('isLoggedIn');
     const signInButton = document.getElementById('signInButton');

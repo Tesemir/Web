@@ -1,14 +1,14 @@
 document.getElementById('searchForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent form submission
+    event.preventDefault(); 
 
     const searchTerm = document.getElementById('searchInput').value.toLowerCase();
-    const contentElements = document.querySelectorAll('.content-wrapper p, .content-wrapper h1, .content-wrapper h2'); // Adjust selectors as needed
-
+    const contentElements = document.querySelectorAll('.content-wrapper p, .content-wrapper h1, .content-wrapper h2'); 
+    
     contentElements.forEach(element => {
         if (element.textContent.toLowerCase().includes(searchTerm)) {
-            element.style.display = ''; // Show element
+            element.style.display = '';
         } else {
-            element.style.display = 'none'; // Hide element
+            element.style.display = 'none';
         }
     });
 });

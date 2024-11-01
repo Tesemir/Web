@@ -17,9 +17,7 @@ function displayGreeting() {
             greeting = "Good night! 🌙";
     }
 
-    // Display the greeting in the specified location
     document.getElementById('greetingDisplay').innerText = greeting;
 }
 
-// Call the function to display the greeting when the page loads
 document.addEventListener('DOMContentLoaded', displayGreeting);

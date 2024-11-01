@@ -30,7 +30,7 @@ function setDarkMode()  {
         currentColorIndex = 1;
         document.body.setAttribute("style", "background-color: " + colors[currentColorIndex] + " !important;");
         contentWrapper.style.backgroundColor = '#333333';
-        themeChangeBtn.innerHTML = 'Dark theme';
+        themeChangeBtn.innerHTML = 'Light theme';
         h2.forEach(h => {
             h.classList.add('dark');
         });
@@ -42,11 +42,11 @@ function setDarkMode()  {
         });
         localStorage.setItem('darkMode', 'true');
     } 
-    function setLightMode()  {
+function setLightMode()  {
         currentColorIndex = 0;
         document.body.setAttribute("style", "background-color: " + colors[currentColorIndex] + " !important;");
         contentWrapper.style.backgroundColor = 'white';
-        themeChangeBtn.innerHTML = 'Light theme';
+        themeChangeBtn.innerHTML = 'Dark theme';
         h2.forEach(h => {
             h.classList.remove('dark');
         });
@@ -57,5 +57,5 @@ function setDarkMode()  {
             h.classList.remove  ('dark');
         });
         localStorage.setItem('darkMode', 'false'); 
-    }
+}
 
