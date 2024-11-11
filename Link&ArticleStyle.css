@@ -8,7 +8,7 @@ body {
 .navbar {
     overflow: hidden;
     border-radius: 10px;
-    margin-inline:20px;
+    margin-inline: 20px;
 }
 
 @font-face {
@@ -62,7 +62,6 @@ body {
     padding-block: 100px;
     border-radius: 10px;
     margin-block:20px;
-
 }
 
 .content-wrapper h2 {

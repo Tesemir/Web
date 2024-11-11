@@ -50,11 +50,11 @@ body {
   }
   
   .online {
-    color: #af4c91; /* Green for online */
+    color: #af4c91;
   }
   
   .offline {
-    color: #F44336; /* Red for offline */
+    color: #F44336;
   }
   
   .server-status h2 {

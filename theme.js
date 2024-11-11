@@ -45,6 +45,15 @@ function setDarkMode()  {
             h.classList.add('dark'); 
         }); 
         localStorage.setItem('darkMode', 'true'); 
+
+        /*Madi*/
+        /*Добавил черную тему карточкам*/
+        const cards = document.querySelectorAll('.card');
+        cards.forEach(card => {
+            card.classList.add('dark');
+            card.style.backgroundColor = '#444';
+            card.style.color = 'white';
+        });
     }  
     function setLightMode()  { 
         currentColorIndex = 0; 
@@ -63,5 +72,15 @@ function setDarkMode()  {
         label.forEach(h => { 
             h.classList.remove  ('dark'); 
         }); 
+
+        /*Madi*/
+        const cards = document.querySelectorAll('.card');
+        cards.forEach(card => {
+            card.classList.remove('dark');
+            card.style.backgroundColor = '';
+            card.style.color = '';
+        });
         localStorage.setItem('darkMode', 'false');  
     }
+
+    
