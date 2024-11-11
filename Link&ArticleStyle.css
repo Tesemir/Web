@@ -96,7 +96,8 @@ body {
 .content-wrapper hr.dark{
     color:#f4f4f4
 }
- h2 {
+
+h2 {
     color: #333;
     font-size: 28px;
     border-bottom: 2px solid #4CAF50;
@@ -112,4 +113,9 @@ body {
 
 #searchForm {
     margin-right: 10px;
+}
+
+.highlight {
+    background-color: rgb(255, 0, 76);
+    font-weight: bold;
 }

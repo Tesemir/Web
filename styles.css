@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1b1b1b;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    font-family: 'CustomFont', sans-serif;
+    font-size: 3rem;
+    color: #FF9800;
+  }
+  
+  .servers-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .server-status {
+    background: #2c2f33;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+    font-family: 'CustomFont';
+  }
+  
+  .server-status:hover {
+    transform: scale(1.05);
+  }
+  
+  .status-info {
+    font-size: 1.2rem;
+    margin-top: 15px;
+  }
+  
+  .online {
+    color: #af4c91; /* Green for online */
+  }
+  
+  .offline {
+    color: #F44336; /* Red for offline */
+  }
+  
+  .server-status h2 {
+    font-family: 'CustomFont', sans-serif;
+    font-size: 1.8rem;
+    color: #ffc400;
+    margin: 0;
+  }
+  
+  /* Minecraft Font for the Header */
+  @font-face {
+    font-family: 'Minecraft';
+    src: url('https://www.fontsquirrel.com/fonts/download/minecraft') format('truetype');
+  }
+  
+  
